@@ -38,7 +38,7 @@ public void doGet( HttpServletRequest request, HttpServletResponse response )
 
     }*/
     private String diff(){
-        String theDate = "17/11/2014 12:30:00";
+        String theDate = "24/11/2014 12:10:00";
         String pattern = "dd/MM/yyyy HH:mm:ss";
         Date d2 = null;
         try {
