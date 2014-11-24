@@ -38,8 +38,10 @@ public void doGet( HttpServletRequest request, HttpServletResponse response )
 
     }*/
     private String diff(){
+
         String theDate = "11-24-2014 12:10:00";
         String pattern = "MM-dd-yyyy HH:mm:ss";
+
         Date d2 = null;
         try {
             d2 = new SimpleDateFormat(pattern).parse(theDate);
